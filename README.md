@@ -2,9 +2,14 @@
 A simple raspberry-pi, python-based server that listens for requests and plays corresponding audio files.
 
 ## Install
-To install, clone this repository on your pi, and run:
+To install, clone this repository on your pi, and run the install command:
 
 ```
+# From a fresh raspbian-lite installation
+sudo apt-get update && sudo apt-get install -y git
+cd ~/
+git clone https://github.com/rydercalmdown/audio_playing_server.git
+cd audio_playing_server
 make install
 ```
 
